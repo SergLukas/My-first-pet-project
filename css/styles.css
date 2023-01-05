@@ -63,9 +63,11 @@
     --color-secondary: #8695A4;
     --color-background: #fff; 
     --color-background-brand: #EDF7FA;
+    --color-background-year: #2A326F;
     --color-action: #FF6464;
     --color-white: #fff; 
     --color-brand: #169799;
+    --color-footer: #678398;
 }
 
 
@@ -83,13 +85,13 @@ body {
     color: var(--color-white);   
 }
 
-/* ul {
+ul {
     list-style-type: none;
-}    */
+}     
 
-.list {
+/* .list {
     list-style-type: none;
-}
+} */
 
 /* UI element */
 .link {
@@ -135,6 +137,7 @@ body {
 
 .section-brand {
     background-color: var(--color-background-brand);
+    /* ГОЛУБАЯ ЗАЛИВКА СЕКЦИИ ПОСТОВ */
 }
 
 .view-all-link {
@@ -167,7 +170,7 @@ body {
     background-color: var(--color-background);
 }
 
-.post-title {
+.list-item-title {
     font-size: 28px;
     font-weight: 600;
     line-height: 1.5; 
@@ -178,4 +181,47 @@ body {
     font-weight: 500;
     line-height: 1.5; 
 }
+
+/* Featured Work section */
+
+.year-styling {
+    color: var(--color-white); 
+    background-color: var(--color-background-year);
+    font-weight: 500; 
+    line-height: 1.5; 
+}
+
+
+/* Footer */
+
+.footer-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--color-footer);
+    text-align: center;  
+}
+
+
+/* BLOG PAGE */
+
+.secondary-main-title {
+    font-weight: 700; 
+    font-size: 40px;
+    line-height: 1.0;
+}
+
+/* WORK PAGE */
+
+/* .secondary-main-title */
+
+
+
+
+
+
+
+
+
+
+
 
